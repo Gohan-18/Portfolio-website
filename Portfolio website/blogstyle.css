@@ -1,0 +1,365 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Code*/
+
+* {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 110px;
+}
+
+/*Header code*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4e44ab;
+    width: 100%;
+    height: 110px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header .header-brand {
+    font-family: 'Catamaran' ;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .header-brand:hover {
+    color: #ffaa7c;
+    transition: 2s;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a{
+    font-family: 'catamaran' ;
+    font-size: 16px;
+    color: #f4f4f4; 
+    transition: 0.7s;
+}
+
+header nav ul li a:hover {
+    font-family: 'catamaran' ;
+    font-size: 18px;
+    background-color: #e7e6e6;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    color: #4e44ab; 
+} 
+
+/*INDEX*/
+
+h1 {
+    font-family: 'Catamaran';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #1d174a; 
+    text-align: center;
+    border: 5px solid #4e44ab;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 1s;
+}
+
+h1:hover {
+    color: #e7e6e6;
+    background-color: #4e44ab;
+}
+
+.wrapper div h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 20px;
+    color: #1d174a; 
+    text-align: center;
+}
+
+.wrapper div p {
+    font-style: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 100px 30px 100px;
+    line-height: 25px;
+}
+
+.wrapper span {
+    font-family: 'catamaran';
+    color: #4e44ab;
+    font-weight: 400;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button1 {
+    font-family: 'Catamaran';
+    font-size: 20px;
+    color: #4e44ab;
+    width: fit-content;
+    display: block;
+    border: 2px solid #4e44ab;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0px auto;
+    transition: 0.7s;
+}
+
+.button1:hover {
+    color: #e7e6e6;
+    background: #4e44ab;
+    transform: scale(1.2);
+}
+
+.index-box1 {
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(100%-10px);
+    height: auto;
+    background-color: #e7e6e6;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+.index-box2 {
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(100%-10px);
+    height: auto;
+    background-color: #e7e6e6;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+.index-box3 {
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(100%-10px);
+    height: auto;
+    background-color: #e7e6e6;
+    padding-top: 12px;
+    padding-bottom: 30px;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #4e44ab;
+    height: 150px;
+    border-radius: 10px;
+}
+
+footer h4 {
+    font-family: catamaran;
+    font-size: 24px;
+    font-weight: 300;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 32px 0 22px 0;
+}
+
+footer ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+footer ul li {
+    display: inline-block;
+    float: none;
+    list-style: none;
+    padding: 0 25px;
+    
+}
+
+footer ul li a{
+    font-family: catamaran;
+    font-size: 16px;
+    color: #f4f4f4;
+    transition: 0.7s;
+}
+
+footer ul li a:hover {
+    font-family: 'catamaran' ;
+    font-size: 18px;
+    background-color: #e7e6e6;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    color: #4e44ab;
+}
+
+/*For big screen devices*/
+
+@media (min-width: 800px) {
+    .wrapper {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    footer {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    header .header-brand {
+        margin: 34px 0;
+        text-align: left;
+        padding: 0 20px 0 45px;
+        border-right: 3px solid #e7e6e6;
+        float: left;
+        line-height: 40px;
+    }
+
+    header nav ul {
+        margin: 34px 0px;
+        float: left;
+    }
+    
+    header nav ul li {
+        display: inline-block;
+        float: left;
+        list-style: none;
+        padding: 0 16px;
+    }
+    
+    header nav ul li a{
+        font-family: 'catamaran' ;
+        font-size: 16px;
+        color: #f4f4f4; 
+        line-height: 40px;
+    }
+
+    h1{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    footer {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
+    h1{
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+}
+
+@media (max-width : 1199px) {
+    .wrapper div p {
+        padding: 10px 30px 0px 30px;
+        line-height: 25px;
+    }
+
+    .wrapper div h3 {
+        font-size: 25px;
+        font-weight: 500;
+        padding: 20px 30px 20px 30px;
+    }
+
+    .index-box1, .index-box2, .index-box3 {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .button1 {
+        font-family: 'Catamaran';
+        font-size: 20px;
+        color: #4e44ab;
+        width: fit-content;
+        display: block;
+        border: 2px solid #4e44ab;
+        padding: 8px;
+        border-radius: 10px;
+        margin: 0px auto;
+        margin-top: 30px;
+        transition: 0.7s;
+    }
+}
